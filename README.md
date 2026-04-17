@@ -1,10 +1,8 @@
 # Computación — FIUNA 2023 (1er cuatrimestre)
 
-> **In English:** Coursework from **Computación**, a semester-long introductory programming course in **C/C++** at FIUNA — the main public school of engineering in Paraguay (Universidad Nacional de Asunción). Covers fundamentals of structured programming: control flow, functions, recursion, arrays, strings, structs, pointers, and sorting algorithms. Files organized by unit in order of increasing complexity. Code comments are in Spanish.
+> **In English:** Coursework from **Computación**, a semester-long introductory programming course in **C/C++** at FIUNA (Universidad Nacional de Asunción). Covers fundamentals of structured programming: control flow, functions, recursion, arrays, strings, structs, pointers, and sorting algorithms. Files organized by unit in order of increasing complexity. Code comments are in Spanish.
 
-Archivo personal de ejercicios, prácticas y exámenes de la materia **Computación**, cursada en la Facultad de Ingeniería de la Universidad Nacional de Asunción (FIUNA) durante el primer cuatrimestre de 2023. FIUNA es la principal facultad de ingeniería pública de Paraguay. El curso se dictó en **C/C++** y cubre los fundamentos de programación estructurada.
-
-Este repositorio es un archivo académico, no un proyecto. Se publica como registro de aprendizaje, no como muestra de código profesional.
+Archivo de ejercicios, prácticas y exámenes de la materia **Computación**, cursada en la Facultad de Ingeniería de la Universidad Nacional de Asunción (FIUNA) durante el primer cuatrimestre de 2023. El curso se dictó en **C/C++** y cubre los fundamentos de programación estructurada.
 
 ## Estructura
 
@@ -24,8 +22,11 @@ El código fuente está en `Codigos/`, organizado por unidades en orden de compl
 | 10      | Punteros          | Aritmética de punteros, paso a funciones                       |
 | 11      | Ordenamiento      | Burbuja, Selección, Inserción, QuickSort, MergeSort            |
 
-## Notas
+`Codigos/Exámenes/` contiene parciales, finales y talleres resueltos. En la raíz se incluye `codigo ascii.jpg`, tabla de referencia usada durante el curso.
 
-- El código conserva el estilo enseñado en la cátedra: `using namespace std`, arreglos de tamaño variable (`int A[N]`), `cin.getline`, `strcmp`, etc.
-- Algunos archivos tienen variantes con sufijos (`xd`, `sol 2`, `forma 2`) — son intentos alternativos del mismo ejercicio, conservados tal como se entregaron.
-- Los comentarios pueden mostrar acentos mal codificados (Latin-1 vs UTF-8), reflejo del entorno original (Dev-C++ en Windows).
+## Convenciones
+
+- Cada archivo comienza con un bloque `/* Enunciado: ... */` que describe el objetivo del ejercicio.
+- Los ejercicios numerados siguen el formato `s<semana>e<ejercicio>-<slug>.cpp`; el resto usa slugs descriptivos en kebab-case.
+- Variantes de un mismo ejercicio se identifican con sufijos `-v2`, `-v3`.
+- El código mantiene el estilo de la cátedra: `using namespace std`, arreglos de tamaño variable (`int A[N]`), `cin.getline`, `strcmp`.
